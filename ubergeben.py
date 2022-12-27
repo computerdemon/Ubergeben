@@ -25,7 +25,8 @@ TOKEN = config.TOKEN
 CHANNEL_ID = config.CHANNEL
 
 # AZURE variables
-speech_key, service_region = "c3389f7aedce456da7d59fd66dfea0b6", "westus"
+speech_key = config.speech_key
+service_region = config.region
 
 # Set up the Discord client
 intents = discord.Intents.default()
