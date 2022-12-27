@@ -58,7 +58,7 @@ async def speech(channel: discord.TextChannel, evt: speechsdk.SessionEventArgs):
 
     async def recognized_cb(evt: speechsdk.SessionEventArgs):
         text = evt.result.text
-        await channel.send("Recognized: {}".format(text))
+        await channel.send("{}".format(text))
 
     def stop_cb(evt: speechsdk.SessionEventArgs):
         speech_recognizer.stop_continuous_recognition_async()
