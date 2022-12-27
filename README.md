@@ -1,6 +1,6 @@
 README for Ubergeben
 
-Ubergeben takes transcriptions from the Azure Speech SDK and passes the transcribed text to a discord channel via a bot.
+Ubergeben takes transcriptions from the Azure Speech SDK using the default microphone input and passes the transcribed text to a discord channel via a bot.
 
 REQUIREMENTS
 
@@ -24,3 +24,7 @@ Set the following variables in the config.py
 TOKEN - this is the token for the Azure SDK
 
 CHANNEL - this is the destination discord channel
+
+TODO
+
+write a description on howto use an RTL-SDR via piping with the rtl_fm command.
