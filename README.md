@@ -21,9 +21,14 @@ SETTINGS
 
 Set the following variables in the config.py
 
-TOKEN - this is the token for the Azure SDK
+TOKEN - this is the token for the Discord bot
 
 CHANNEL - this is the destination discord channel
+
+speech_key - put your Azure speech key generated here
+
+region - put your Azure speech region here - typically 'westus'
+
 
 TODO
 
